@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Folding Screen</title>
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+
+		<div class="viewport">
+			<div class="mainaxis">
+				<div class="intro">
+					<h1>Last Defender of Tenochitlan</h1>
+					<p>
+						<i>
+							As you gaze into your mirror one evening, Tezcatlipoca, god of the smoky mirror, calls you...
+						</i>
+					</p>
+					<p>
+						"Olin, warrior of the Nahua people! Defend your city from the greedy children of Quetzalcoatl. They beseige the city tonight!"
+					</p>
+					<p>
+						"Use the A & D glyphs to walk left and right. The W glyph will cause you to jump, and the SPACE glyph swings your macuahuitl."
+					</p>
+					<p>
+						"I give you one of my mirror's powers to aid you in the battle. Press SHIFT to reflect yourself across the battlefield!"
+					</p>
+
+					<i>click to begin</i>
+				</div>
+				<div class="ending">
+					<h1>Conquistadors defeated:</h1>
+				</div>
+				<canvas class="panel farleftpanel"></canvas>
+				<canvas class="panel leftpanel"></canvas>
+				<canvas class="panel rightpanel"></canvas>
+				<canvas class="panel farrightpanel"></canvas>
+			</div>
+		</div>
+
+		<script src="lib/sylvester.js"></script>
+
+		<!-- not modules... I have to work quickly -->
+		<script src="js/utilities.js"></script>
+		<script src="js/panels.js"></script>
+		<script src="js/particles.js"></script>
+		<script src="js/player.js"></script>
+		<script src="js/conq.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
